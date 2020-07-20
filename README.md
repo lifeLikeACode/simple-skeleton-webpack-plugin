@@ -1,0 +1,1 @@
+# simple-skeleton-webpack-plugin
