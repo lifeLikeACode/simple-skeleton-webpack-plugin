@@ -30,6 +30,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new VueLoaderPlugin(),
     new SkeletonPlugin({
+      staticDir: resolve(__dirname, "dist"),
       port: 8888,
       origin: "localhost:8888", //"http://www.baidu.com"
     }),

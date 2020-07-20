@@ -13,6 +13,8 @@ class SkeletonPlugin {
       this.skeleton = new Skeleton(this.options);
       await this.skeleton.init();
       await this.skeleton.genHTML(this.options.origin);
+
+      await this.server.close();
     });
   }
 }
